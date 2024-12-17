@@ -16,7 +16,7 @@ namespace MariesNadiraLab4
                 {
                     database = new
                     ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
-                    LocalApplicationData), "ShoppingList.db3"));
+                    LocalApplicationData), "ShoppingList1.db3"));
                 }
                 return database;
             }
